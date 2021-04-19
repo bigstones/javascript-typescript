@@ -1,0 +1,19 @@
+document.onkeyup = function(e) {
+  if (e.which == 17) isCtrl = false;
+  if (e.which ==18) isAlt = false;
+}
+
+document.onkeydown = function(e) {
+  if (e.which == 17) isCtrl = true;
+  if (e.which ==18) isAlt = true;
+
+console.log(e.which, isCtrl, isAlt)
+if (e.which ==67 && isCtrl == true && isAlt == true) {
+  console.log("ctrl + alt + c");
+    return false;
+  }
+}
+
+https://laelbe.s3.amazonaws.com/blog/81/Javascript-eventkeyCode-Value_ex01.html
+https://blog.lael.be/post/75
+여기 가면 키 값에 대해서 알 수 있다
