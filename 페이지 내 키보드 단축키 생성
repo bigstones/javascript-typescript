@@ -1,3 +1,5 @@
+# ctrl + alt + c 단축키를 생성하는 코드이다
+
 document.onkeyup = function(e) {
   if (e.which == 17) isCtrl = false;
   if (e.which ==18) isAlt = false;
