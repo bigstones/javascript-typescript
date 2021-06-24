@@ -16,6 +16,11 @@ if문
     
     }
 
+## 연산자
+
+    || #or
+    && #and
+    ! #not
 
 
 # typescript
