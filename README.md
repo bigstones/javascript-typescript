@@ -8,7 +8,7 @@
 
     value.toString().length;
     
-if문
+[if문](https://github.com/bigstones/javascript-typescript/blob/main/if.js)
     
     if(조건) {
     
