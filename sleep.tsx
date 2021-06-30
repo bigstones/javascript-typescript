@@ -1,3 +1,5 @@
-import asyncio
-
-asyncio.sleep(5)
+function sleep(ms:number) {
+  
+  const wakeUpTime = Date.now() + ms;
+  while (Date.now() < wakeUpTime) {
+  }
