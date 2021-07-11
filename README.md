@@ -24,3 +24,30 @@
 
 
 # typescript
+
+## decorator
+
+## type inference
+
+    interface Person {
+        name: string;
+        sex: number;
+    }
+
+    interface Car {
+        brand: string;
+        model: string;
+    }
+
+    function isPerson(arg: any): arg is Person {
+        return arg.name !== undefined;
+    }
+
+    function hello(arg: Person | Car) {
+        if (isPerson(arg)) {
+            console.log(arg.name);
+        } else {
+            console.log(arg.brand)
+        }
+    }
+    
