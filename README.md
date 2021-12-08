@@ -2,10 +2,57 @@
 
 자바스크립트 공부하면서 설정하면 좋을 것 코드 작성중입니다
 
+## filter
+
+    
+    class Animal{
+    constructor(name, age) {
+    this.name = name;
+    this.age = age;
+    }
+    }
+    
+    const animals = [
+    new Animal('dog', 1)
+    new Animal('cat', 2)
+    ]
+    
+    const name_result = animals.filter((animal) => animal.name);
+    const age_result = animals.filter((animal) => animal.age);
+    
+
 ## map
+
+    class Animal{
+    constructor(name, age) {
+    this.name = name;
+    this.age = age;
+    }
+    }
+    
+    const animals = [
+    new Animal('dog', 1)
+    new Animal('cat', 2)
+    ]
+    
+    const result = students.map((student)=> student.age);
 
 
 ## reduce
+
+    class Animal{
+    constructor(name, age) {
+    this.name = name;
+    this.age = age;
+    }
+    }
+    
+    const animals = [
+    new Animal('dog', 1)
+    new Animal('cat', 2)
+    ]
+    
+    const result = students.reduce((prev, curr)=> {return prev + curr.age}, 0);
 
 
 ## some
