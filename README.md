@@ -61,6 +61,14 @@
 ## every
 
 
+## join
+
+    const test = ['a', 'b', 'c']
+    const testjoin = test.join('')
+
+    console.log(testjoin)
+    // 'abc'
+
 ## string
 문자 길이
 
